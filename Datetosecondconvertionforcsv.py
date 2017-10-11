@@ -27,22 +27,3 @@ df['timeSeconds'] = pi-p0
 print(df.head())
 
 df.to_csv('uberunixtime.csv')
-
-
-
-#print(df['DateTime'].dt.total_seconds())
-#df['timeSeconds'] = df['DateTime'].dt.total_seconds()
-##for d in range df:
- ##   a = datetime.strptime(convdate, "%b %d %H:%M:%S %Y %Z")
- ##   b = datetime(1970, 1, 1)
- ##   (a-b).total_seconds()
-
-
-
-##df.drop(['Base'], 1, inplace=True)
-##print(df.head())
-##df.convert_objects(convert_numeric=True).dtypes
-##print(df.head())
-##df.dropna(inplace=True)
-
-
