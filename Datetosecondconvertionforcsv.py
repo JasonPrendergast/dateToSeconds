@@ -1,9 +1,6 @@
 import pandas as pd
-##import Quandl
 import math
 import numpy as np
-#from sklearn import preprocessing, cross_validation, svm
-##from sklearn.linear_model import LinearRegression
 import pickle
 from datetime import datetime
 
